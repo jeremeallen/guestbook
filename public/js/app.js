@@ -44,7 +44,7 @@ new Vue({
             var do_delete = confirm("Are you sure?");
 
             if(!do_delete)  return;
-            
+
             $.ajax({
                 context: comment,
                 type: "DELETE",
